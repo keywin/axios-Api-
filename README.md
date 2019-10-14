@@ -4,7 +4,7 @@ npm i
 
 npm run dev
 
-#### 与此相关文件说明
+###### 与此相关文件说明
 
 ```
 ├── src
@@ -22,5 +22,6 @@ npm run dev
 ```
 
 作者：keywin
+掘金主页: https://juejin.im/user/5c81e1c56fb9a049fd10a2f6
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
