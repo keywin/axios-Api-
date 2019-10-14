@@ -1,4 +1,4 @@
-拉取代码
+### 拉取代码
 
 npm i
 
@@ -22,6 +22,6 @@ npm run dev
 ```
 
 作者：keywin  
-掘金主页: https://juejin.im/user/5c81e1c56fb9a049fd10a2f6
+掘金: https://juejin.im/user/5c81e1c56fb9a049fd10a2f6
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
