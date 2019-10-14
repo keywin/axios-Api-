@@ -1,30 +1,22 @@
-# axios_modelapi
+#### 二次封装及Api统一管理
 
-> A Vue.js project
+#### 与此相关文件说明
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
+├── src
+    ├── api
+    │   ├── api_model // 模块分区文件夹
+    │   │   ├── http_model1.js // a模块api管理
+    │   │   ├── http_model2.js // b模块api管理
+    │   ├── http_axios.js // 仅对axios二次封装
+    │   ├── http_baseUrl.js // 地址-IP
+    │   ├── http_interceptor.js // 拦截器-加载等待
+    │   └── http_status.js // 状态码
+    ├── components
+    │   ├── HelloWorld.vue // 方法引入及使用demo
+    └── main.js // 输出sVue
+```
+
+作者：keywin
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
